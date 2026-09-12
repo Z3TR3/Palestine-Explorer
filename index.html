@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Palestine Explorer webpage">
+    <meta name="author" content="Abdulaziz">
+    <title>Palestine Explorer: Midterm Challenge</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+<header>
+    <nav class="navbar">
+
+        <!-- SVG Logo -->
+        <a href="#top" class="logo" aria-label="Palestine Explorer Home">
+
+            <svg width="55" height="45"
+                 viewBox="0 0 100 70"
+                 role="img"
+                 aria-label="Palestine Explorer logo">
+
+                <rect width="100" height="23" fill="black"></rect>
+                <rect y="23" width="100" height="23" fill="white"></rect>
+                <rect y="46" width="100" height="24" fill="green"></rect>
+
+                <path d="M0 0 L45 35 L0 70 Z" fill="red"></path>
+
+            </svg>
+
+            <span>Palestine Explorer</span>
+
+        </a>
+
+        <!-- Hamburger checkbox -->
+        <input type="checkbox" id="menu-toggle">
+
+        <label for="menu-toggle" class="hamburger">
+            ☰
+        </label>
+
+        <ul class="nav-links">
+
+            <li><a href="#top">Top</a></li>
+
+            <li>
+                <a href="#introduction">
+                    Introduction
+                </a>
+            </li>
+
+            <li>
+                <a href="#governorates">
+                    Palestinian Governorates
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    Contact
+                </a>
+            </li>
+
+            <li>
+                <a href="#bottom">
+                    Bottom
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- Introduction -->
+    <section id="introduction" class="intro">
+
+        <div class="intro-content">
+
+            <h1>
+                Welcome to Palestine Explorer
+            </h1>
+
+            <p>
+                Palestine is a land rich in history,
+                culture and traditions. Explore some
+                famous Palestinian cities and
+                governorates and learn more about
+                their unique heritage.
+            </p>
+
+            <a href="#governorates"
+               class="button">
+                Explore Palestine
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Governorates -->
+    <section id="governorates"
+             class="governorates">
+
+        <h2>
+            Palestinian Governorates
+        </h2>
+
+        <div class="cards">
+
+            <article class="card">
+
+                <img
+                src="https://images.unsplash.com/photo-1548013146-72479768bada"
+                alt="Historic view representing Jerusalem">
+
+                <div class="card-content">
+
+                    <h3>Quds</h3>
+
+                    <p>
+                        Quds is one of the oldest
+                        cities in the world and has
+                        great historical and cultural
+                        importance.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="card">
+
+                <img
+                src="https://images.unsplash.com/photo-1564507592333-c60657eea523"
+                alt="Historic stone buildings representing Al-Khalil">
+
+                <div class="card-content">
+
+                    <h3>Al-Khalil</h3>
+
+                    <p>
+                        Al-Khalil is an ancient
+                        Palestinian city famous for
+                        its history, traditional
+                        markets and architecture.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="card">
+
+                <img
+                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+                alt="Mediterranean coastline representing Yafa">
+
+                <div class="card-content">
+
+                    <h3>Yafa</h3>
+
+                    <p>
+                        Yafa is a historic coastal
+                        city famous for its sea,
+                        port and beautiful old city.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="card">
+
+                <img
+                src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+                alt="Landscape representing Khan Younis">
+
+                <div class="card-content">
+
+                    <h3>Khan Younis</h3>
+
+                    <p>
+                        Khan Younis is located in
+                        southern Gaza and is known
+                        for its history and
+                        agricultural areas.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="card">
+
+                <img
+                src="https://images.unsplash.com/photo-1519046904884-53103b34b206"
+                alt="Coastal landscape representing Rafah">
+
+                <div class="card-content">
+
+                    <h3>Rafah</h3>
+
+                    <p>
+                        Rafah is located in the
+                        southern part of the Gaza
+                        Strip and has an important
+                        geographical location.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="card">
+
+                <img
+                src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda"
+                alt="Mediterranean sea view representing Gaza">
+
+                <div class="card-content">
+
+                    <h3>Gaza</h3>
+
+                    <p>
+                        Gaza is an ancient
+                        Mediterranean city with a
+                        long history, rich culture
+                        and strong traditions.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+
+        <h2>Contact Us</h2>
+
+        <form>
+
+            <div class="form-group">
+
+                <label for="name">
+                    Name
+                </label>
+
+                <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="subject">
+                    Subject
+                </label>
+
+                <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Enter subject"
+                required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="phone">
+                    Phone Number
+                </label>
+
+                <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="0123456789"
+                pattern="[0-9]{9,15}"
+                required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="email">
+                    FTU Email Address
+                </label>
+
+                <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="student@ftu.ac.th"
+                pattern="[A-Za-z0-9._%+\-]+@ftu\.ac\.th"
+                title="Email must end with @ftu.ac.th"
+                required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="secret">
+                    Secret Word
+                </label>
+
+                <input
+                type="password"
+                id="secret"
+                name="secret"
+                minlength="8"
+                pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9]).{8,}"
+                title="Minimum 8 characters with uppercase, lowercase, number and special character"
+                placeholder="Enter secret word"
+                required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="message">
+                    Message
+                </label>
+
+                <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Write your message here"
+                required></textarea>
+
+            </div>
+
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+
+<footer id="bottom">
+
+    <p>
+        &copy; 2026 Palestine Explorer
+    </p>
+
+    <p>
+        Student: Abdulaziz
+    </p>
+
+    <a href="#top">
+        Back to Top ↑
+    </a>
+
+</footer>
+
+</body>
+</html>
